@@ -1,9 +1,9 @@
 using Microsoft.Extensions.DependencyInjection;
-using TodoApi.Services;
+using TodoApi.Features.TodoItems.Services;
 
 namespace TodoApi.Extensions
 {
-    public static class ServiceCollectionExtensions
+    public static class DependencyInjection
     {
         public static IServiceCollection AddApplicationServices(
             this IServiceCollection services)

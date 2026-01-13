@@ -1,8 +1,8 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using TodoApi.Models;
+using TodoApi.Features.TodoItems.Models;
 
-namespace TodoApi.Services;
+namespace TodoApi.Features.TodoItems.Services;
 
 public class TodoService: ITodoService
 {

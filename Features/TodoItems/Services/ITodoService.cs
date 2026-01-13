@@ -1,7 +1,6 @@
-using System;
-using TodoApi.Models;
+using TodoApi.Features.TodoItems.Models;
 
-namespace TodoApi.Services;
+namespace TodoApi.Features.TodoItems.Services;
 
 public interface ITodoService
 {
